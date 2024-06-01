@@ -54,4 +54,13 @@ if __name__ == '__main__':
     house_numbers_positions = [(1, 5), (2, 10), (3, 19), (4, 20), (5, 25)]
     print(find_largest_plot(N, house_numbers_positions))
 
+    # 示例化学品蒸气速率列表
+    chemicals = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    print(max_vapor_rate(chemicals))
+
+    # 示例输入
+    N = 5
+    house_numbers_positions = [(1, 5), (2, 10), (3, 19), (4, 20), (5, 25)]
+    print(find_largest_plot(N, house_numbers_positions))
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
